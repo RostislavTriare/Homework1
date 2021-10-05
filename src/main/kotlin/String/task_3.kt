@@ -3,10 +3,10 @@ package String
 
 fun main() {
 
-    val s:Array<Char> = arrayOf('a','b','o','n','t')
+    val s="afksjkgor"
     var str=""
-    for(i in 0..s.size-1){
-        str=str+" "+s[i].toString()
+    for(i in 0..s.count()-1){
+        str=str+" "+s[i]
     }
     println(str)
 }
